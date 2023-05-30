@@ -1,0 +1,120 @@
+*{margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+
+}
+.header{
+  min-height: 130vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(5,120,5,0.7),rgba(30,30,40,0.7)),url(naslovna-stran.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  border-bottom: 10px solid #282828;
+}
+
+nav{
+  display:flex;
+  border-bottom: 10px solid #282828;
+  padding: 2% 6%;
+  border-bottom:2px, black;
+  justify-content: space-between;
+  align-items:center;
+  background: #434343;
+
+}
+nav img{
+  width: 250px
+}
+.nav-links{
+  flex: 1;
+  text-align:right;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a{
+  color:#fff;
+  text-decoration: none;
+  font-size: 30px;
+}
+.nav-links ul li::after {
+  content:'';
+  width: 0%;
+  height: 2px;
+  background: orange;
+  display: block;
+  margin: auto;
+  transition:0.5s;
+}  
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+.text-box {
+  width: 90%;
+  color:limegreen;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text-box h1{
+  font-size: 62px;
+  text-shadow: 10px 10px 5px black
+}
+.text-box p{
+  font-size: 25px;
+  text-shadow:5px 5px 5px #000000;
+  text-decoration: underline;
+  color: white
+}
+
+
+
+
+Body {background-color:dimgray;
+  border-right: 15px solid #282828;
+  border-left: 15px solid #282828;
+  border
+  writing-mode: vertical-tb;
+
+}
+
+h1 {color:limegreen;
+  text-align: center;
+  font-size: 50px;
+  
+  
+}
+h2 {color:palegreen;
+  text-align: center;
+  font-size: 40px;
+
+
+}
+h3 {color:orange;
+  text-align: left;
+  padding-left: 300px;
+  padding-right: 300px;
+  font-size: 30px;
+
+
+}
+.content p {
+  color:#ebebeb;
+  text-align:justify;
+  padding-left: 300px;
+  padding-right: 300px;
+  font-size: 20px;
+}
+div img{border: solid;
+border-color:orange;
+  box-shadow: 5px 5px 25px black;
+}
+.alineje {color: white;
+font-size: 20px;
+padding-right: 200px;}
