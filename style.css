@@ -6,7 +6,7 @@
 .header{
   min-height: 130vh;
   width: 100%;
-  background-image: linear-gradient(rgba(5,120,5,0.7),rgba(30,30,40,0.7)),url(naslovna-stran.jpg);
+  background-image: linear-gradient(rgba(5,120,5,0.7),rgba(30,30,40,0.7)),url(/Images/naslovna-stran.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
