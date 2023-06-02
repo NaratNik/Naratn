@@ -3,7 +3,7 @@
   font-family: 'Poppins', sans-serif;
 
 }
-.header{
+.header{                     /* slika na naslovni strani, barva, hue, pozicija*/
   min-height: 130vh;
   width: 100%;
   background-image: linear-gradient(rgba(5,120,5,0.7),rgba(30,30,40,0.7)),url(./Images/naslovna-stran.jpg);
@@ -13,7 +13,7 @@
   border-bottom: 10px solid #282828;
 }
 
-nav{
+nav{                         /* navigacijsko okno z gumbi*/
   display:flex;
   border-bottom: 10px solid #282828;
   padding: 2% 6%;
@@ -22,26 +22,26 @@ nav{
   align-items:center;
   background: #434343;
 
-}
-nav img{
+}         
+nav img{                  /* logotip */
   width: 250px
 }
 .nav-links{
   flex: 1;
   text-align:right;
 }
-.nav-links ul li {
+.nav-links ul li {            /*pozicija gumbov*/
   list-style: none;
   display: inline-block;
   padding: 8px 12px;
   position: relative;
 }
-.nav-links ul li a{
+.nav-links ul li a{              /* tekst gumbov*/
   color:#fff;
   text-decoration: none;
   font-size: 30px;
 }
-.nav-links ul li::after {
+.nav-links ul li::after {               /* argumenti preden z miško hoveraš na gumb*/
   content:'';
   width: 0%;
   height: 2px;
@@ -50,10 +50,10 @@ nav img{
   margin: auto;
   transition:0.5s;
 }  
-.nav-links ul li:hover::after {
+.nav-links ul li:hover::after {          /* argument po tem*/
   width: 100%;
 }
-.text-box {
+.text-box {                               /* Naslov glavne strani*/
   width: 90%;
   color:limegreen;
   position: absolute;
@@ -62,11 +62,11 @@ nav img{
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.text-box h1{
+.text-box h1{                                /*podnaslov glavne strani */
   font-size: 62px;
   text-shadow: 10px 10px 5px black
 }
-.text-box p{
+.text-box p{                                  /* urejanje naslova*/
   font-size: 25px;
   text-shadow:5px 5px 5px #000000;
   text-decoration: underline;
@@ -76,7 +76,7 @@ nav img{
 
 
 
-Body {background-color:dimgray;
+Body {background-color:dimgray;                      /* ozadje */
   border-right: 15px solid #282828;
   border-left: 15px solid #282828;
   border
@@ -84,7 +84,7 @@ Body {background-color:dimgray;
 
 }
 
-h1 {color:limegreen;
+h1 {color:limegreen;                  /* tekst */
   text-align: center;
   font-size: 50px;
   
